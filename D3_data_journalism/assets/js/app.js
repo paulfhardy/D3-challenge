@@ -64,8 +64,8 @@ d3.csv("./assets/data/data.csv").then(riskData => {
     .join("circle")
     .attr("cx", d => xLinearScale(d.age))
     .attr("cy", d => yLinearScale(d.smokes))
-    .attr("r", "16")
-    .attr("fill", "green")
+    .attr("r", "12")
+    .attr("fill", "yellow")
     .attr("opacity", 0.5)
     .attr("stroke", "black")
     .attr("stroke-width", 1);
@@ -82,7 +82,7 @@ d3.csv("./assets/data/data.csv").then(riskData => {
     .attr("font-family", "sans-serif")
     .attr("font-size", "12px")
     .attr("font-weight", "700")
-    .attr("fill", "red");
+    .attr("fill", "blue");
   
     // Create axes labels
     chartGroup.append("text")
