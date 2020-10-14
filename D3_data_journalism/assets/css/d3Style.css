@@ -31,8 +31,15 @@
 }
 
 .stateCircle {
-  fill: #89bdd3;
-  stroke: #e3e3e3;
+  fill: blue;
+  stroke:black;
+  stroke-width:2
+}
+
+.stateCircle:hover {
+  fill: red;
+  stroke:black;
+  stroke-width:5
 }
 
 .chart {
