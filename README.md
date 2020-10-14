@@ -12,7 +12,7 @@ A plot of Smokers(%) vs Age (Median) was plotted for each state.
 
 * A screen shot of the plot appears below:
 
-![Screenshot of Plot](/D3-challenge/D3Times.png)
+![Screenshot of Plot](D3Times.png)
 
 ### 2. Axes:
 
